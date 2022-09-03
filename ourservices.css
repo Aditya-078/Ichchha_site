@@ -1,0 +1,285 @@
+*{
+  box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
+}
+.navigation-link-header a{
+  color: black;
+}
+nav{
+  background: #4682B4;
+}
+/*many column*/
+
+.ourservices-column1-heading{
+  text-align: center;
+}
+.ourservices-outer-big-column-for-images{
+  position: relative;
+  margin:20px 210px 20px 210px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ourservices-small-column-images{
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.outerDivMainToHaddleImageInInnnerDiv{
+  max-height: 300px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+
+}
+.ourservices-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(3, 69, 44, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.outerDivMainToHaddleImageInInnnerDiv:hover .ourservices-image-overlay {
+  height: 100%;
+}
+.ourservices-images-text{
+  color: white;
+  line-height: 1.6em;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+
+}
+.ourworks-image1{
+  background-image: url(False-ceiling.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image2{
+  background-image: url(Painting.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image3{
+  background-image: url(Furtinure-work.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image4{
+  background-image: url(Plumbing.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image5{
+  background-image: url(electric.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+  
+}
+.ourworks-image6{
+  background-image: url(Ac-services.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image7{
+  background-image: url(Modular-kitchens.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image8{
+  background-image: url(landscaping.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image9{
+  background-image: url(Housekeeping.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+.ourworks-image10{
+  background-image: url(pantry-management.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 15px;
+  position: relative;
+}
+    /*Appointment*/
+.aboutus-after-content-appointment{
+  text-align: center;
+  line-height: 1.9em;
+  margin-top: 50px;
+  width: 100%;
+  background: rgba(3, 37, 76, 0.4);
+  color: #03254C;
+}
+
+.aboutus-after-content-appointment:hover{
+  background-color: rgba(3, 37, 76, 0.2);
+}
+.aboutus-after-content-appointment-heading{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.aboutus-after-content-appointment-para{
+  font-size: 15px;
+}
+
+a.button {
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  color: white;
+  background-color:#61CE30;
+  box-shadow: none;
+  cursor: pointer;
+  overflow: visible;
+  margin-bottom: 0;
+
+}
+.aboutus-full-content-container{
+  bottom: 0;
+  max-width: 100%;
+  padding: 50px;
+
+}
+/*---------------LOGOs--------------------*/
+.whatsapp-message-phone-logo{
+  overflow: visible;
+}
+.padding-logo-in-between{
+  padding: 5px;
+}
+.whatsapp-message-phone-logo-1{
+  width: 200px;
+  position: fixed;
+  top:auto;
+  bottom:0px;
+  left:0px;
+  right:auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.logo-link-for-phone{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.common-conatct-logo1{
+  background-color:rgba(0, 255, 0, 0.9);
+  color: white;
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0.8em;
+  text-align: center;
+  cursor: pointer;
+}
+.common-conatct-logo2{
+  background-color:rgba(37, 211, 102, 0.8);
+  color: white;
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.8em;
+  cursor: pointer;
+  
+}
+.common-conatct-logo1-hover{
+  display: none;
+}
+.common-conatct-logo1-display:hover + .common-conatct-logo1-hover{
+  display: block;
+  color: darkblue;
+}
+/*footer*/
+.footer-social-media{
+	font-size: 30px;
+	padding: 15px 15px;
+	text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer{
+	padding-top: 1.333em;
+	padding-bottom: 1.333em;
+	background-color: #4682B4;
+	text-align: center;
+	line-height: 1.85714285714286;
+	color: #fff;
+	font-size: 15px;
+}

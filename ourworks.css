@@ -1,0 +1,119 @@
+*{
+  box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
+}
+.navigation-link-header a{
+  color: black;
+}
+nav{
+  background: #4682B4;
+}
+
+/*---------------LOGOs--------------------*/
+.whatsapp-message-phone-logo{
+  overflow: visible;
+}
+.padding-logo-in-between{
+  padding: 5px;
+}
+.whatsapp-message-phone-logo-1{
+  width: 200px;
+  position: fixed;
+  top:auto;
+  bottom:0px;
+  left:0px;
+  right:auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.logo-link-for-phone{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.common-conatct-logo1{
+  background-color:rgba(0, 255, 0, 0.9);
+  color: white;
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0.8em;
+  text-align: center;
+  cursor: pointer;
+}
+.common-conatct-logo2{
+  background-color:rgba(37, 211, 102, 0.8);
+  color: white;
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.8em;
+  cursor: pointer;
+  
+}
+.common-conatct-logo1-hover{
+  display: none;
+}
+.common-conatct-logo1-display:hover + .common-conatct-logo1-hover{
+  display: block;
+  color: darkblue;
+}
+
+/*footer*/
+.footer-social-media{
+  font-size: 30px;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer{
+  padding-top: 1.333em;
+  padding-bottom: 1.333em;
+  background-color: #4682B4;
+  text-align: center;
+  line-height: 1.85714285714286;
+  color: #fff;
+  font-size: 15px;
+}
